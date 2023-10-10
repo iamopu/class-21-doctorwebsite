@@ -1,3 +1,52 @@
-h4{
-    color: brown;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+.full-width{
+    width: 100%;
+}
+.container{
+    width: 970px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* all common css */
+/* header part start */
+#header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logo{
+    float: left;
+    width: 83px;
+}
+.header_text{
+
+    float: left;
+    width: 665px;
+}
+.header_text h3{
+    padding-top: 30px;
+    padding-left: 15px;
+    font-size: 26px;
+    color: #3ca2a2;
+}
+.phone_number{
+    float: left; 
+    width: 222px;
+}
+.phone_number h3{
+    font-size: 30px;
+    color: #ca0711;
+    padding-top: 30px;
+    
+}
+/* header part end*/
+
+
