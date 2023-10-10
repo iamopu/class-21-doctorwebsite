@@ -32,6 +32,8 @@ a{
     width: 665px;
 }
 .header_text h3{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
     padding-top: 30px;
     padding-left: 15px;
     font-size: 26px;
@@ -42,11 +44,47 @@ a{
     width: 222px;
 }
 .phone_number h3{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     color: #ca0711;
     padding-top: 30px;
     
 }
 /* header part end*/
+
+/* menu part start */
+#menu{
+    margin-top: 73px;
+    width: 100%;
+    height: 50px;
+    background-color: #ca0711;
+ 
+}
+
+.menu_item ul li{
+   padding-top: 15px;
+   padding-bottom: 15px;
+    display: inline-block;
+}
+
+.menu_item ul li :hover{
+    transition: all linear 1s;
+background-color: #f18d26;
+padding-bottom: 15px;
+padding-top: 15px;
+
+}
+
+.menu_item ul li a{
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+/* menu part ended */
 
 
